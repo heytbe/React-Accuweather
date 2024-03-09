@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.headermenu {
+    height: 50px;
+    background-color: rgba(21, 58, 90, 1);
+    padding: 0 20px 0 20px;
+}
+
+.headermenu .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0 5px 0;
+}
+
+.headermenu .searcharea {
+    position: relative;
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+.headermenu .searcharea .searchbox {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    background-color: rgba(52, 50, 66, 0.8);
+    margin-top: 10px;
+    border-radius: 5px 0 5px 0;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 5px 0 5px 0;
+    -ms-border-radius: 5px 0 5px 0;
+    -o-border-radius: 5px 0 5px 0;
+    padding: 20px;
+    z-index: 999;
+}
+
+.headermenu .searcharea .searchbox .cityList{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+.headermenu .searcharea .searchbox .cityList li{
+    position: relative;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-right: 0;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headermenu .searcharea .searchbox .cityList li span{
+    background-color: rgba(21, 58, 90, 1);
+    padding: 20px 10px 20px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.headermenu .search {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.headermenu .search input {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 30px);
+    height: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #000;
+}
+
+.headermenu .search i {
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, .6);
+}
+
+.headermenu .menuarea li {
+    display: block;
+    height: auto;
+    margin-right: 20px;
+    float: left;
+    line-height: 50px;
+}
+
+.headermenu .menuarea li:last-child {
+    margin-right: 0;
+}
+
+.headermenu .menuarea li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: ease-in 100ms;
+    -webkit-transition: ease-in 100ms;
+    -moz-transition: ease-in 100ms;
+    -ms-transition: ease-in 100ms;
+    -o-transition: ease-in 100ms;
+}
+
+.headermenu .menuarea li a:hover {
+    background-color: rgba(112, 134, 155, 0.6);
+}
+
+.bodyarea {
+    width: 1920px !important;
+    margin: 0 auto;
+}
+
+.todayarea {
+    background-color: rgba(0, 0, 0, 0.01);
+    height: calc(100vh - 50px);
+    padding: 20px;
+}
+
+.today .iconarea {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.today .icon {
+    transform: scale(1);
+    -webkit-transform: scale(4);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.todayarea .today h1 {
+    display: block;
+    width: 100%;
+    color: rgb(67, 77, 129);
+    font-size: 60px;
+    text-align: center;
+}
+
+.todayarea .todayinfo {
+    margin-top: 60px;
+    border-bottom: thin solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.todayarea .todayinfo {
+    align-items: center;
+}
+
+.todayarea .todaytext {
+    margin-top: 20px;
+}
+
+.todayarea .todaytext i {
+    margin-right: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nextarea {
+    margin-top: 20px;
+    padding: 0 60px 0;
+}
+
+.nextarea .dayweather {
+    position: relative;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-align: center;
+}
+
+.nextarea .dayweather .icon {
+    transform: scale(2);
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    margin-top: 20px;
+}
+
+.infobox{
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 20px;
+}
+
+.infobox .box{
+    text-align: center;
+}
+
+.infobox .box .boxinfo h1{
+    display: inline-block;
+    font-size: 100px;
+}
+
+.infobox .box i{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.2);
+}

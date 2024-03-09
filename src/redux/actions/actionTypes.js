@@ -1,0 +1,4 @@
+export const GET_LIST_CITY_NAME = "GET_LIST_CITY_NAME"
+export const CURRENT_CITY = "CURRENT_CITY"
+export const CITY_WEATHER = "CITY_WEATHER"
+export const CITY_5_DAY_WEATHER = "CITY_5_DAY_WEATHER"
